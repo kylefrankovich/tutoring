@@ -28,7 +28,7 @@ reverse_input = [6, 4, 'a_string', 3, 'another_string', 1.01, True]
 # 3:
 
 # using an imported python module, generate a list of
-# 100 random integers and save it to a variable
+# 100 random integers between 0 and 1000 and save it to a variable
 
 
 
@@ -87,6 +87,4 @@ students_to_add = [['laura', 9111, [96, 93, 97]], ['stephanie', 9622, [93, 94, 9
 # 6. D:
 
 # what is the class average for 8th graders? 9th graders?
-
-
 
