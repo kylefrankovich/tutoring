@@ -15,9 +15,9 @@ def tip_calculator(meal_cost, tax_rate, tip_percent):
     print('meal total:', meal_total)
 
 
-meal_cost = 15
-tax_rate = 6
-tip_percent = 20
+meal_cost = 100
+tax_rate = 10
+tip_percent = 10
 
 
 tip_calculator(meal_cost,tax_rate,tip_percent)
@@ -134,21 +134,38 @@ class_roster = {'ava': {'student_ID': '9113', 'test_scores': [94, 89, 95]},
 
 students_to_add = [['laura', 9111, [96, 93, 97]], ['stephanie', 9622, [93, 94, 97]], ['jared', 8954, [95, 91, 95]]]
 
+students_to_add[0]
+
 students_to_add[0][0] # name
+students_to_add[0][1]
 str(students_to_add[0][1])
 students_to_add[0][2]
 
 len(class_roster)
 
 for i in students_to_add:
+    print(i)
+
+for i in students_to_add:
     class_roster[i[0]] = {'student_ID': str(i[1]), 'test_scores': i[2]}
+
+
 
 class_roster['stephanie']['test_scores']
 class_roster['rick']['test_scores']
 
+
 # 6. B:
 
 # create a list of all 8th grade student names:
+
+
+for key in class_roster:
+    print('key:',key)
+
+
+
+
 
 eighth_graders = []
 
